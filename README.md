@@ -7,11 +7,19 @@ Flatdango Movie Theater
 
 # Project Setup
 
-1. Create a new project folder on your local machine.
-2. Clone the GitHub repository to your project folder.
-3. Make sure you have a local server running to serve the JSON data. You can use JSON Server for this purpose.
-4. Update the URLs in the `script.js` file to point to the correct endpoints on your local server.
-5. Open the `index.html` file in a web browser.
+1. Create a new project folder on your local machine using the following steps ;
+    To clone a repository to your local files, you can follow these steps:
+
+    *Open your command-line interface.
+    *Navigate to the directory where you want to clone the repository. You can use the `cd` command to change directories.
+    *Copy the repository's clone URL. You can find it on the GitHub repository page by clicking on the "Code" button and selecting the "Clone" option. Make sure to choose the HTTPS URL.
+    *In the CLI, use the `git clone` command followed by the repository's clone URL.
+    *Press Enter to execute the command. The repository will be cloned to your local machine.
+    *After the cloning process completes,navigate into that directory using the `cd` command.
+
+2. Make sure you have a local server running to serve the JSON data. 
+3. Update the URLs in the `script.js` file to point to the correct endpoints on your local server.
+4. Open the `index.html` file in a web browser.
 
 # Core Deliverables
 
@@ -21,16 +29,7 @@ As user can;
 2. See a menu of all movies on the left side of the page.
 3. Buy a ticket for a movie, and the number of available tickets will decrease on the frontend.
 
-# File Structure
-
-The project includes the following files:
-
-- `index.html`: The main HTML file that displays the movie details and film menu.
-- `style.css`: The CSS file that defines the styling for the web page.
-- `d.json`: The JSON file that contains the movie data.
-- `script.js`: The JavaScript file that fetches data from the server and updates the DOM.
-
-## Technologies Used
+# Technologies Used
 
 The project uses the following technologies:
 
@@ -39,18 +38,20 @@ The project uses the following technologies:
 - JavaScript: Programming language for client-side interactions and DOM manipulation.
 - JSON Server: Local server for serving the JSON data.
 
-## Acknowledgments
+# Acknowledgments
 
 The project is based on the Code Challenge for Week 3 of the Flatiron School curriculum.
 
-## Contributing
+# Author
+Linet Muthii
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+# License
 
-## License
+This project is licensed under the [MIT License] [2023] [Linet Muthii]
+(https://opensource.org/licenses/MIT).
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
----
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Feel free to customize and enhance the `README.md` file based on your specific project requirements and preferences.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

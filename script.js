@@ -1,4 +1,4 @@
-/ this is the DOMcontentLoaded function
+// DOMContentLoaded function
 document.addEventListener("DOMContentLoaded", function()
  {
   // Retrieve the <li> elements representing the films
@@ -25,7 +25,7 @@ filmDescriptionElement.textContent = description;
 filmPosterElement.setAttribute("src", poster);
   }
 
-  // Function to update the available tickets on the page
+  // Update the available tickets on the page
   function updateAvailableTickets(filmData) {
     const { tickets_sold, capacity } = filmData;
     const availableTickets = capacity - tickets_sold;
@@ -34,7 +34,7 @@ const filmTicketsElement = document.getElementById("film-tickets");
 filmTicketsElement.textContent = availableTickets;
   }
 
-  // Function to handle the buy ticket button click
+  // Handle the buy ticket button click
   function handleBuyTicket(event) {
     const filmElement = event.target.closest("li.film.item");
     const filmId = filmElement.getAttribute("data-id");
@@ -83,7 +83,7 @@ fetch(`/films/${filmId}`)
   const buyTicketButton = document.getElementById("buy-ticket-button");
   buyTicketButton.addEventListener("click", handleBuyTicket);
 
-  // Function to handle the search button click
+  // Handle the search button click
   function handleSearch() {
     const filmNumber = prompt("Enter the film number:");
     if (filmNumber) {
